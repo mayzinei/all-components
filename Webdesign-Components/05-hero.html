@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>OmniFood Hero Section</title>
+		<!-- Google Font (Rubik) -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<style>
+			* {
+				padding: 0;
+				margin: 0;
+				box-sizing: border-box;
+			}
+			html {
+				font-family: "Rubik", sans-serif;
+				color: #444;
+			}
+			.container {
+				max-width: 1200px;
+				margin: 0 auto;
+			}
+			header {
+				height: 100vh;
+				position: relative;
+				background-image: linear-gradient(
+						rgba(0, 0, 0, 0.5),
+						rgba(0, 0, 0, 0.5)
+					),
+					url(images/hero.jpg);
+				background-size: cover;
+				background-attachment: fixed;
+			}
+			.header-container {
+				width: 100%;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				color: #fff;
+			}
+			.header-container-inner {
+				width: 50%;
+			}
+			nav {
+				color: #fff;
+				font-size: 20px;
+				font-weight: 700;
+				display: flex;
+				justify-content: space-between;
+				padding-top: 32px;
+			}
+			h1 {
+				font-size: 52px;
+				margin-bottom: 32px;
+				text-align: left;
+			}
+			p {
+				font-size: 20px;
+				line-height: 1.6;
+				margin-bottom: 48px;
+			}
+			.btn:link,
+			.btn:visited {
+				font-size: 20px;
+				font-weight: 500;
+				background: #e67e22;
+				color: #fff;
+				text-decoration: none;
+				display: inline-block;
+				padding: 16px 32px;
+				border-radius: 9px;
+			}
+			h2 {
+				font-size: 44px;
+				margin-bottom: 32px;
+			}
+			section {
+				padding: 96px 0;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav class="container">
+				<div class="logo">Logo</div>
+				<div class="navigation">nav</div>
+			</nav>
+			<div class="container header-container">
+				<div class="header-container-inner">
+					<h1>
+						A healthy meal delivered to your door | every single day!
+					</h1>
+					<p>
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+						Eaque consequuntur sed in deleniti eveniet molestias
+						voluptatum.
+					</p>
+					<a href="#" class="btn">Start eating well</a>
+					<a href="#" class="btn">learn more</a>
+				</div>
+			</div>
+		</header>
+		<section>
+			<div class="container">
+				<h2>Random Heading</h2>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+					officiis, accusamus facere obcaecati aspernatur quidem quo, quod
+					repellat, eaque provident nesciunt vitae modi animi mollitia
+					totam voluptas harum aliquam molestiae!
+				</p>
+			</div>
+		</section>
+	</body>
+</html>
